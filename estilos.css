@@ -1,0 +1,30 @@
+.texto-principal{
+	text-decoration: none;
+	font-size: 200%;
+}
+.texto-principal:hover{
+	color: chartreuse;
+	text-decoration:line-through;
+}
+body{
+	background: rgb(36,0,0);
+	background: linear-gradient(162deg, rgba(36,0,0,1) 0%,
+	 rgba(121,9,9,1) 35%, rgba(94,9,9,1) 77%,
+	  rgba(168,4,4,1) 100%);
+	color: #000;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#entrada_datos{
+	padding: 2%;
+	border-radius: 10%;
+	margin-left: 40%;
+	text-align: center;
+	width: 20%;
+	background-color: #000;
+	color: aliceblue;
+}.resultados{
+	background-color: #000;
+	color: azure;
+}
